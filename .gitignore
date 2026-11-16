@@ -2,17 +2,27 @@
 build*/
 twister-out*/
 
-# Output of Zephyr's scripts/ci/check_compliance.py
-compliance.xml
-dts_linter.patch
+# Python
+.venv/
+__pycache__/
 
-# Editor, tool and OS files: they belong to the workspace, not to this repository
-.cache/
-.clangd
+# Editor, IDE and IntelliSense files
 .vscode/
 .idea/
 *.code-workspace
+.cache/
+.clangd
 compile_commands.json
-.DS_Store
 *.swp
+*.swo
 *~
+
+# Tag files
+GPATH
+GRTAGS
+GTAGS
+TAGS
+tags
+
+# macOS
+.DS_Store
